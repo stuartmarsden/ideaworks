@@ -58,7 +58,7 @@ To create a new virtualenv for ideaworks:
 
 This creates a directory ideaworks wherever the command was run. We can activate is by 
 
-    source ideaworks/bin/activate
+    source ideaworksenv/bin/activate
 
 A requirements.txt file provided which lists the required packages. If you are connected to the Internet and have pip
 (and/or virtualenv) installed, you can just run:
