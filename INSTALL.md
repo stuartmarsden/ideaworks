@@ -39,7 +39,10 @@ and possibly:
 
     $> yum install -y mod_proxy
 
+### Ubuntu and Debian based distros
 
+    $> apt-get -y install apache2 libxml2-dev libxslt1-dev build-essential python-dev python-pip python-virtualenv libapache2-mod-wsgi libapache2-mod-proxy-html
+    
 ## Python:
 
 It has been tested and works under Python 2.6 and 2.7.
@@ -48,6 +51,14 @@ It has been tested and works under Python 2.6 and 2.7.
 ## Python packages
 
 We use [virtualenv](http://virtualenv.readthedocs.org/en/latest/ "virtualenv") and pip to manage python project dependencies. 
+
+To create a new virtualenv for ideaworks:
+
+    virtualenv ideaworks
+
+This creates a directory ideaworks wherever the command was run. We can activate is by 
+
+    source ideaworks/bin/activate
 
 A requirements.txt file provided which lists the required packages. If you are connected to the Internet and have pip
 (and/or virtualenv) installed, you can just run:
