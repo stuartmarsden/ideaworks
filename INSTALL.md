@@ -54,7 +54,7 @@ We use [virtualenv](http://virtualenv.readthedocs.org/en/latest/ "virtualenv") a
 
 To create a new virtualenv for ideaworks:
 
-    virtualenv ideaworks
+    virtualenv ideaworksenv
 
 This creates a directory ideaworks wherever the command was run. We can activate is by 
 
